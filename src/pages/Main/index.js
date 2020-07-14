@@ -2,10 +2,12 @@
 import React, { Component } from 'react';
 
 import { FaGithubAlt, FaPlus, FaSpinner } from 'react-icons/fa';
-import { Container, Form, SubmitButton, List } from './styles';
+import { Form, SubmitButton, List } from './styles';
 import { Link } from 'react-router-dom';
 
 import api from '../../services/api';
+
+import Container from '../../Components/Container';
 
 export default class Main extends Component {
   state = {
